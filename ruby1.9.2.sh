@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 wget ftp://ftp.ruby-lang.org//pub/ruby/1.9/ruby-1.9.2-p290.tar.gz
 tar -zxvf ruby-1.9.2-p290.tar.gz
 wget https://raw.github.com/gist/1008945/4edd1e1dcc1f0db52d4816843a9d1e6b60661122/ruby-1.9.2p290.patch
