@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# requires build-essential libssl-dev libreadline5-dev zlib1g-dev
+# requires build-essential libssl-dev libreadline6-dev zlib1g-dev
 
 wget ftp://ftp.ruby-lang.org//pub/ruby/1.9/ruby-1.9.2-p290.tar.gz
 tar -zxvf ruby-1.9.2-p290.tar.gz
