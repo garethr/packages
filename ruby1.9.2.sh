@@ -4,7 +4,7 @@ tar -zxvf ruby-1.9.2-p290.tar.gz
 wget https://raw.github.com/gist/1008945/4edd1e1dcc1f0db52d4816843a9d1e6b60661122/ruby-1.9.2p290.patch
 cd ruby-1.9.2-p290
 patch -p1 < ../ruby-1.9.2p290.patch
-time (./configure --prefix=/usr && make && make install DESTDIR=installdir)
+time (./configure --prefix=/usr --with-openssl-dir=/usr --with-readline-dir=/usr --with-zlib-dir=/usr && make && make install DESTDIR=installdir)
 
 fpm -s dir -t deb -n ruby -v 1.9.2-p290 -C installdir \
   -p ruby-VERSION_ARCH.deb -d "libstdc++6 (>= 4.4.3)" \
