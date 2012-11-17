@@ -1,0 +1,54 @@
+Package: diamond
+Version: 3.1.111
+Architecture: all
+Maintainer: Rob Smith <kormoc@gmail.com>
+Installed-Size: 1646
+Depends: python (>= 2.4), python-support (>= 0.90.0), python-configobj
+Filename: pool/diamond_3.1.111_all.deb
+Size: 189216
+MD5sum: b85edf51787f2a83cab50b8776029eb0
+SHA1: 43644e00a017d900287ae736a287a3837e63c8e0
+SHA256: 0a45cd35f86f62886a3522d54e204e68ac48775678ff06a1bb0043ec1e5866c4
+Section: misc
+Priority: extra
+Homepage: https://github.com/BrightcoveOS/Diamond
+Description: System statistics collector for Graphite.
+ Diamond is a daemon and toolset for gathering system statistics
+ and publishing them to Graphite.
+
+Package: nodejs
+Version: 0.9.3
+Architecture: amd64
+Maintainer: <vagrant@precise64>
+Installed-Size: 17889
+Depends: libstdc++6 (>= 4.4.3), libc6 (>= 2.6), libssl0.9.8 (>= 0.9.8), zlib1g (>= 1:1.2.2)
+Filename: pool/nodejs-0.9.3_amd64.deb
+Size: 5693464
+MD5sum: 68b100bbef4c22d766b9148d258842f6
+SHA1: 5216a67f9a8427f126b6bf7a3fe0e46c850dd958
+SHA256: d4687c19e11a71ba3972a40d5309b78293bd4b350cfac6c08cc28d80ce63c064
+Section: default
+Priority: extra
+Homepage: http://example.com/no-uri-given
+Description: no description given
+License: unknown
+Vendor: vagrant@precise64
+
+Package: ruby
+Version: 1.9.2-p290
+Architecture: amd64
+Maintainer: <vagrant@precise64>
+Installed-Size: 39892
+Depends: libstdc++6 (>= 4.4.3), libc6 (>= 2.6), libffi5 (>= 3.0.4), libgdbm3 (>= 1.8.3), libncurses5 (>= 5.7), libreadline6 (>= 6.1), libssl0.9.8 (>= 0.9.8), zlib1g (>= 1:1.2.2)
+Filename: pool/ruby-1.9.2-p290_amd64.deb
+Size: 11074102
+MD5sum: 9a211065e97b381820373684cfcb2ccf
+SHA1: 314820e061748394f5ba79845f25fbe4bcce3f17
+SHA256: 33f1c199ccf82489940970f930d86c44bcf99961ecc10e0893452b27b7dd8b4e
+Section: default
+Priority: extra
+Homepage: http://example.com/no-uri-given
+Description: no description given
+License: unknown
+Vendor: vagrant@precise64
+

@@ -1,0 +1,18 @@
+Package: diamond
+Version: 3.1.111
+Architecture: all
+Maintainer: Rob Smith <kormoc@gmail.com>
+Installed-Size: 1646
+Depends: python (>= 2.4), python-support (>= 0.90.0), python-configobj
+Filename: pool/diamond_3.1.111_all.deb
+Size: 189216
+MD5sum: b85edf51787f2a83cab50b8776029eb0
+SHA1: 43644e00a017d900287ae736a287a3837e63c8e0
+SHA256: 0a45cd35f86f62886a3522d54e204e68ac48775678ff06a1bb0043ec1e5866c4
+Section: misc
+Priority: extra
+Homepage: https://github.com/BrightcoveOS/Diamond
+Description: System statistics collector for Graphite.
+ Diamond is a daemon and toolset for gathering system statistics
+ and publishing them to Graphite.
+

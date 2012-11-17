@@ -1,0 +1,36 @@
+Origin: Gareth Rushgrove
+Label: Gareth Rushgrove
+Suite: current
+Codename: current
+Architectures: amd64 i386
+Components: main
+Description: Gareth Rushgrove
+Date: Sat, 17 Nov 2012 20:31:29 UTC
+MD5Sum:
+ 426fc7b2803243f56623580af777ea2f             1852 main/binary-amd64/Packages
+ bb52380f474a6eab7316798652340591              890 main/binary-amd64/Packages.gz
+ 5a2aae7033965ce776d082746bc6a925              111 main/binary-amd64/Release
+ e9faec60ae292f47ca6b33d4a6a9fd48              633 main/binary-i386/Packages
+ e538ca99b5ec08369ada5813b9f28c35              448 main/binary-i386/Packages.gz
+ e07d396bca24d243371bc114cf706cf4              110 main/binary-i386/Release
+SHA1:
+ f768cc452365da617c8abdc79235a88a357f98aa             1852 main/binary-amd64/Packages
+ 2259815b12317c9f38c9a2901c506a6b9357660b              890 main/binary-amd64/Packages.gz
+ 2c2adf05cf3cc69fdd872abd0f9a12007bb4e87a              111 main/binary-amd64/Release
+ de3c0371f72e4c0f8512f8c612004adfa5b9d478              633 main/binary-i386/Packages
+ 6f1706eae293c911b893f09b6ce2953b91aa9beb              448 main/binary-i386/Packages.gz
+ 64d591018d6ef2f9ce44def4a57b3d8d5b7ffbdf              110 main/binary-i386/Release
+SHA256:
+ 1a6b942c1481b27a1b11e6b37744b4e9225df75e159ce97cfc8f947dc0dda588             1852 main/binary-amd64/Packages
+ b58cc9106df182eca60d6887b2cb73783cbc170092db57b823bafbf6fbcf7021              890 main/binary-amd64/Packages.gz
+ 0cbbf4bf2e9c0cddddf1ab5874ac8f630cd2c156c83b6f9f14452f127fd1d3cb              111 main/binary-amd64/Release
+ f4b7ed4312ffa2454c12a44ee4aa1a8851b3ed360ce509f0091d3c674e9a7491              633 main/binary-i386/Packages
+ 954b9e031968f91bc2e771524e52d6613f502abfccd271b00e2af3e1aafcb36f              448 main/binary-i386/Packages.gz
+ a8cc0425e94936298c0badd57e1db7fdf70d1cc999f79d36c4d85ac33fcd0f5a              110 main/binary-i386/Release
+SHA512:
+ 6d6f019ebcd33f747cf3d5c07b8cf03dba36bac7c9340fa78bf8d2247feaaa6512391308407498eb8eb1bba7d623a4eb59d6c63bad2644c2f0b3a1a738f5abad             1852 main/binary-amd64/Packages
+ 7552495ca961da15b91490ae195c55ea937180a04be77e55673ceb4f052dae1a90da45b46b85c8e418b5d0974bc713e8d9e96cd118a546396c330de1236dc5eb              890 main/binary-amd64/Packages.gz
+ 801cd279c7bb41c4fe50d3497ce6d417b2a46d41819b60a6422b0e84566147feb6090b1e4691aafbd245be497eb8ba117d0c7de131d4a8f7646a8773d5792a58              111 main/binary-amd64/Release
+ 1d45a8072c5e39fd9bf3177a58fa3c9fb153b59ce1db6d6984a7659c47c395776cde48123a3f5eac09232af4b033f6a3eac3b4061e1d75a18dc6940cfef086cc              633 main/binary-i386/Packages
+ 65469e64f39a52dbf650c6b0c14a6688e753883ff562c67a3f5507e144f603a3d7647751732538fee3b2e8dbaf214950141e67da10748ed0e444713b3441e70e              448 main/binary-i386/Packages.gz
+ 2f657d0b2e50484e948eee931f2d6a94e293928aa01bff9de40ddc0ba11fea71bfbdd58d2af943160311a0dc98acdb570d8687d85a8392d4db8f411e7ea34668              110 main/binary-i386/Release
