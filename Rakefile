@@ -12,7 +12,7 @@ namespace :repo do
     puts "Enter your gpg passphrase"
     passphrase = STDIN.noecho(&:gets).chomp
     puts "Running build script"
-    env.primary_vm.channel.execute("PASSPHRASE=#{passphrase} ./build.sh") do |type, data|
+    env.primary_vm.channel.execute("PASSPHRASE=#{passphrase} ./bin/build.sh") do |type, data|
       puts data
       $stdout.flush
     end

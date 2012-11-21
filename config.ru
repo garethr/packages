@@ -8,6 +8,8 @@ module Kernel
   end
 end
 
+use Rack::Static, :urls => ["/assets"]
+
 suppress_warnings do
   Rack::Directory::DIR_PAGE = File.open("templates/list.html", "rb").read
   Rack::Directory::DIR_FILE = File.open("templates/_item.html", "rb").read

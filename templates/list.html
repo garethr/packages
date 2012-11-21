@@ -1,24 +1,69 @@
-<html><head>
-  <title>%s</title>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <style type='text/css'>
-table { width:100%%; }
-.name { text-align:left; }
-.size, .mtime { text-align:right; }
-.type { width:11em; }
-.mtime { width:15em; }
-  </style>
-</head><body>
-<h1>%s</h1>
-<hr />
-<table>
-  <tr>
-    <th class='name'>Name</th>
-    <th class='size'>Size</th>
-    <th class='type'>Type</th>
-    <th class='mtime'>Last Modified</th>
-  </tr>
-%s
-</table>
-<hr />
-</body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Package Repository</title>
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/application.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="/assets/ico/favicon.ico">
+ </head>
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+      <a class="brand" href="%s">%s</a>
+    </div>
+  </div>
+</div>
+
+<header class="jumbotron subhead" id="overview">
+  <div class="container-fluid">
+    <h1>Packages</h1>
+    <p class="lead">Debian package repositories don't have to be ugly</p>
+  </div>
+</header>
+
+<div id="main">
+
+<div class="container-fluid">
+<pre class="prettyprint linenums">
+echo "deb http://packages.garethrushgrove.com $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/garethr.list
+sudo wget -O /etc/apt/trusted.gpg.d/garethr.gpg "http://packages.garethrushgrove.com/dists/$(lsb_release -sc)/Release.gpg"
+sudo apt-get update
+sudo apt-get install &lt;package-name&gt;
+</pre>
+</div>
+
+<div class="container-fluid">
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Size</th>
+      <th scope="col">Type</th>
+      <th scope="col">Last Modified</th>
+    </tr>
+    </thead>
+    <tbody>
+    %s
+    </tbody>
+  </table>
+</div>
+
+</div>
+
+  <footer class="footer">
+    <div class="container-fluid">
+      <p>Package toolchain from <a href="http://www.morethanseven.net">@garethr</a></p>
+    </div>
+  </footer>
+
+  <script src="/assets/js/google-code-prettify.js"></script>
+  <script>window.prettyPrint && prettyPrint();</script>
+</body>
+</html>

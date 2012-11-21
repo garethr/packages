@@ -4,16 +4,16 @@
 set -e
 export DEBIAN_FRONTEND=noninteractive
 
-DISTRIBUTIONS="current"
+DISTRIBUTIONS="lucid precise"
 COMPONENTS="main"
 ARCHITECTURES="amd64 i386"
 OWNER="Gareth Rushgrove"
 GPGUSER="Gareth Rushgrove <gareth@morethanseven.net>"
 
-rm -rf ../repo/*
-mkdir -p ../repo/pool
-cp ../debs/*.deb ../repo/pool/
-cd ../repo
+rm -rf repo/*
+mkdir -p repo/pool
+cp debs/*.deb repo/pool/
+cd repo
 
 for dist in $DISTRIBUTIONS; do
   for comp in $COMPONENTS; do
