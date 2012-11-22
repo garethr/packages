@@ -33,7 +33,7 @@
 <div class="container-fluid">
 <pre class="prettyprint linenums">
 echo "deb http://packages.garethrushgrove.com $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/garethr.list
-sudo wget -O /etc/apt/trusted.gpg.d/garethr.gpg "http://packages.garethrushgrove.com/garethr.gpg"
+wget -q http://packages.garethrushgrove.com/garethr.gpg -O- | sudo apt-key add -
 sudo apt-get update
 sudo apt-get install &lt;package-name&gt;
 </pre>
