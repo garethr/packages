@@ -10,11 +10,19 @@ ARCHITECTURES="amd64 i386"
 OWNER="Gareth Rushgrove"
 GPGUSER="Gareth Rushgrove <gareth@morethanseven.net>"
 
+# start at a known location
+cd $HOME
+
+# remove the existing repository
 rm -rf repo/*
 mkdir -p repo/pool
+
+# copy our pre-built packages into place
 cp debs/*.deb repo/pool/
 cd repo
 
+# build up the repo structure for the specified distributions and
+# architectures
 for dist in $DISTRIBUTIONS; do
   for comp in $COMPONENTS; do
     for arch in $ARCHITECTURES; do
@@ -41,6 +49,7 @@ Components: $COMPONENTS
 Description: $OWNER
 END
   apt-ftparchive release dists/$dist >> Release
+  # Sign the repo using the specified GPG key
   gpg -abs \
     --no-tty --local-user "${GPGUSER}" \
     --passphrase "${PASSPHRASE}" \
@@ -48,3 +57,6 @@ END
     Release
   mv Release dists/$dist/
 done
+
+# copy the public key into the correct place
+cp ../*.gpg .
