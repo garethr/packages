@@ -34,21 +34,3 @@ Description: no description given
 License: unknown
 Vendor: vagrant@precise64
 
-Package: ruby
-Version: 1.9.2-p290
-Architecture: amd64
-Maintainer: <vagrant@precise64>
-Installed-Size: 39892
-Depends: libstdc++6 (>= 4.4.3), libc6 (>= 2.6), libffi5 (>= 3.0.4), libgdbm3 (>= 1.8.3), libncurses5 (>= 5.7), libreadline6 (>= 6.1), libssl0.9.8 (>= 0.9.8), zlib1g (>= 1:1.2.2)
-Filename: pool/ruby-1.9.2-p290_amd64.deb
-Size: 11074102
-MD5sum: 9a211065e97b381820373684cfcb2ccf
-SHA1: 314820e061748394f5ba79845f25fbe4bcce3f17
-SHA256: 33f1c199ccf82489940970f930d86c44bcf99961ecc10e0893452b27b7dd8b4e
-Section: default
-Priority: extra
-Homepage: http://example.com/no-uri-given
-Description: no description given
-License: unknown
-Vendor: vagrant@precise64
-
