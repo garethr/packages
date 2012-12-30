@@ -1,14 +1,14 @@
 Package: diamond
-Version: 3.1.111
+Version: 3.3.1
 Architecture: all
 Maintainer: Rob Smith <kormoc@gmail.com>
-Installed-Size: 1646
+Installed-Size: 1766
 Depends: python (>= 2.4), python-support (>= 0.90.0), python-configobj
-Filename: pool/diamond_3.1.111_all.deb
-Size: 189216
-MD5sum: b85edf51787f2a83cab50b8776029eb0
-SHA1: 43644e00a017d900287ae736a287a3837e63c8e0
-SHA256: 0a45cd35f86f62886a3522d54e204e68ac48775678ff06a1bb0043ec1e5866c4
+Filename: pool/diamond_3.3.1_all.deb
+Size: 206498
+MD5sum: 97cedfd3fa9699a67a186dcd053039c8
+SHA1: 52e97c4d73ce9621394d8108f049eaca93414bb4
+SHA256: 1627c40fda97d0be3f5c0d66ef0d5df45e717055e503a98a4c58142278b3f26f
 Section: misc
 Priority: extra
 Homepage: https://github.com/BrightcoveOS/Diamond
@@ -33,4 +33,18 @@ Homepage: http://example.com/no-uri-given
 Description: no description given
 License: unknown
 Vendor: vagrant@precise64
+
+Package: riemann
+Version: 0.1.5
+Architecture: all
+Maintainer: aphyr@aphyr.com
+Depends: bash
+Filename: pool/riemann_0.1.5_all.deb
+Size: 18528446
+MD5sum: 3de17cb79a7368bdb40f90fc7d63b1c3
+SHA1: 54528c3dcb475fcebf669528f6d399e5c232cd17
+SHA256: bb4c85ffb2d003a18d7dd215b248f719370e5816867f19874f92cd52ef934647
+Section: base
+Priority: optional
+Description: A network event stream processor. Intended for analytics, metrics, and alerting; and to glue various monitoring systems together.
 
