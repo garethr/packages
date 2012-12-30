@@ -15,3 +15,13 @@ or similar easy.
 
 This currently only really works with Ubuntu 12.04 but that should be
 easy enough to fix given a bit of effort.
+
+For an example repository see
+[packages.garethrushgrove.com](http://packages.garethrushgrove.com).
+
+This repository currently contains packages for:
+
+* Diamond
+* Riemann
+* Rundeck
+* Nodejs
