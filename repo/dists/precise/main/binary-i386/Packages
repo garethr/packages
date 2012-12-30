@@ -30,3 +30,19 @@ Section: base
 Priority: optional
 Description: A network event stream processor. Intended for analytics, metrics, and alerting; and to glue various monitoring systems together.
 
+Package: rundeck
+Version: 1.4.4
+Architecture: all
+Maintainer: Noah Campbell <noahcampbell@gmail.com>
+Depends: openssh-client, java6-runtime | java6-runtime-headless , adduser (>= 3.11)
+Filename: pool/rundeck-1.4.4_all.deb
+Size: 47252244
+MD5sum: bcec04c5af649186969378731e4c0558
+SHA1: 0fd8656fe70e62001fb253c8ad894715411d6d9c
+SHA256: 16fb6f7995d42860976f9542c5e5a1bba8f3b9bfd515135056ff3181fcfc6ead
+Section: utils
+Priority: optional
+Description: No ordinary wooden deck. You can build a bon fire on this deck.
+ Rundeck provides a single console for dispatching commands across many
+ resources.
+

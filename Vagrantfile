@@ -3,7 +3,7 @@
 
 Vagrant::Config.run do |config|
   config.vm.box = "precise64"
-  config.vm.forward_port 80, 8082
+  config.vm.forward_port 80, 8882
 
   ['repo', 'debs'].each do |path|
     config.vm.share_folder path, path, path, :create => true
