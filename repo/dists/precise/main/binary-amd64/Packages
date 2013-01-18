@@ -16,6 +16,23 @@ Description: System statistics collector for Graphite.
  Diamond is a daemon and toolset for gathering system statistics
  and publishing them to Graphite.
 
+Package: nimrod
+Version: 0.6.1
+Architecture: amd64
+Maintainer: <vagrant@precise64>
+Installed-Size: 8625
+Filename: pool/nimrod-0.6.1_amd64.deb
+Size: 7960270
+MD5sum: 0431be4fb00c260b645d2d3e9fb53196
+SHA1: 8e2ab3c0c3842051bb80433cc3197086b9fd3c99
+SHA256: 3c131835964d7d855528791ef58893403b1d5452f32171d2955dc29591066d2a
+Section: default
+Priority: extra
+Homepage: http://example.com/no-uri-given
+Description: no description given
+License: unknown
+Vendor: vagrant@precise64
+
 Package: nodejs
 Version: 0.9.3
 Architecture: amd64

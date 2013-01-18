@@ -8,6 +8,7 @@ package {
     'libssl-dev',
     'libreadline6-dev',
     'zlib1g-dev',
+    'leiningen',
   ]:
     ensure => installed,
 }
