@@ -9,6 +9,7 @@ package {
     'libreadline6-dev',
     'zlib1g-dev',
     'leiningen',
+    'default-jdk',
   ]:
     ensure => installed,
 }
