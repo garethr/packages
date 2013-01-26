@@ -16,6 +16,23 @@ Description: System statistics collector for Graphite.
  Diamond is a daemon and toolset for gathering system statistics
  and publishing them to Graphite.
 
+Package: jmxtrans
+Version: 20130126-155228-537b1f1c85-1
+Architecture: all
+Maintainer: Jon Stevens <latchkey@gmail.com>
+Installed-Size: 13933
+Depends: debconf (>= 0.5) | debconf-2.0, java2-runtime
+Recommends: python-yaml
+Filename: pool/jmxtrans_20130126-155228-537b1f1c85-1_all.deb
+Size: 11021596
+MD5sum: 6af733066c445f4705439b018ec40dd7
+SHA1: 330cf8f6078a5df2677691ded58ccbecaa736f3a
+SHA256: e9007883fa324726f109b3d90d66afbdd14cf09a020f289bac2d43ff365c25ee
+Section: admin
+Priority: optional
+Description: master-jmxtrans-537b1f1c85 - jmxtrans
+ dependency package, installs jmxtrans
+
 Package: nimrod
 Version: 0.6.1
 Architecture: amd64
