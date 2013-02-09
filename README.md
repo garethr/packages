@@ -25,3 +25,6 @@ This repository currently contains packages for:
 * Riemann
 * Rundeck
 * Nodejs
+* Nimrod
+* JMXTrans
+* Lumberjack
