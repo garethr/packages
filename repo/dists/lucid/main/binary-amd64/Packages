@@ -33,6 +33,23 @@ Priority: optional
 Description: master-jmxtrans-537b1f1c85 - jmxtrans
  dependency package, installs jmxtrans
 
+Package: lumberjack
+Version: 0.0.21
+Architecture: amd64
+Maintainer: <vagrant@precise64>
+Installed-Size: 8430
+Filename: pool/lumberjack_0.0.21_amd64.deb
+Size: 2779422
+MD5sum: 3a7b231bbb863f05f8995d049c36b79e
+SHA1: 608818dc656a387b9eecf8dca1a80290be637499
+SHA256: c2b529007126b6d2024c32a2e7aea8d77e590453e0eca68035ad7add1f9bcfe5
+Section: default
+Priority: extra
+Homepage: https://github.com/jordansissel/lumberjack
+Description: a log shipping tool
+License: unknown
+Vendor: vagrant@precise64
+
 Package: nimrod
 Version: 0.6.1
 Architecture: amd64
