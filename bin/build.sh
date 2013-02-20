@@ -35,7 +35,7 @@ Origin: $OWNER
 Label: $OWNER
 Architecture: $arch
 END
-      dpkg-scanpackages -a $arch pool /dev/null > $path/Packages
+      dpkg-scanpackages -m -a $arch pool /dev/null > $path/Packages
       gzip -9c < $path/Packages > $path/Packages.gz
     done
   done
