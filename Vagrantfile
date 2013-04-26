@@ -6,11 +6,11 @@ Vagrant::Config.run do |config|
   config.vm.forward_port 80, 8882
 
   ['repo', 'debs'].each do |path|
-    config.vm.share_folder path, path, path, :create => true
+    config.vm.share_folder path, "/home/vagrant/#{path}", path, :create => true
   end
 
   ['recipes', 'bin'].each do |path|
-    config.vm.share_folder path, path, path
+    config.vm.share_folder path, "/home/vagrant/#{path}", path
   end
 
   config.vm.provision :puppet, :options => ["--debug", "--verbose", "--summarize", "--reports", "store"] do |puppet|
