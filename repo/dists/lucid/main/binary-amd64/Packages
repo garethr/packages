@@ -178,3 +178,19 @@ Description: No ordinary wooden deck. You can build a bon fire on this deck.
  Rundeck provides a single console for dispatching commands across many
  resources.
 
+Package: rundeck
+Version: 1.6.2
+Architecture: all
+Maintainer: Noah Campbell <noahcampbell@gmail.com>
+Depends: openssh-client, java6-runtime | java6-runtime-headless , adduser (>= 3.11)
+Filename: pool/rundeck-1.6.2_all.deb
+Size: 55890708
+MD5sum: c95fc9c30f0cb4e7d378576f51a79837
+SHA1: 31c2f6091fdc22f10080ba2ef6ffdc51536af7cc
+SHA256: 718bd5e94ea22871ff83f3b2e7161396509562db10a2723ff63d46ea7e764ce5
+Section: utils
+Priority: optional
+Description: No ordinary wooden deck. You can build a bon fire on this deck.
+ Rundeck provides a single console for dispatching commands across many
+ resources.
+
